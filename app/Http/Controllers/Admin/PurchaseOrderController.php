@@ -130,7 +130,7 @@ class PurchaseOrderController extends Controller
             'user_id.exists' => 'Nhân viên phụ trách không hợp lệ.',
             'expected_import_date.required' => 'Ngày nhập dự kiến không được để trống.',
             'expected_import_date.date' => 'Ngày nhập dự kiến không hợp lệ.',
-            'expected_import_date.after_or_equal' => 'Ngày nhập dự kiến phải lớn hơn hoặc bằng ngày đặt.',        ]);
+            'expected_import_date.after_or_equal' => 'Ngày nhập dự kiến phải lớn hơn hoặc bằng ngày đặt .',        ]);
 
         $user_id = $validated['user_id'];
         // 2. Xác định po_number (order_code)
